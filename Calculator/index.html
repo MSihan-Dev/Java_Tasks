@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styleSheet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="fff">Mohamed Sihan</div>
+      <input type="text" id="just" />
+      <input type="text" placeholder="0" id="outputs" />
+      <div class="inputsArea">
+        <button class="gray" onclick="Clear1()">AC</button>
+        <button class="gray" onclick="neg('-')">+/-</button>
+        <button class="gray" onclick="percen('%')">%</button>
+        <button id="orange" onclick="di('÷')">÷</button>
+        <button onclick="dis(7)">7</button>
+        <button onclick="dis(8)">8</button>
+        <button onclick="dis(9)">9</button>
+        <button id="orange" onclick="di('×')">×</button>
+        <button onclick="dis(5)">5</button>
+        <button onclick="dis(4)">4</button>
+        <button onclick="dis(6)">6</button>
+        <button id="orange" onclick="di('-')">-</button>
+        <button onclick="dis(1)">1</button>
+        <button onclick="dis(2)">2</button>
+        <button onclick="dis(3)">3</button>
+        <button id="orange" onclick="di('+')">+</button>
+        <button id="zero" onclick="dis(0)">0</button>
+        <button class="dot" onclick="dot('.')">.</button>
+        <button id="equal" onclick="equal()">=</button>
+      </div>
+      <div class="last">
+        <div class="circle"></div>
+      </div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
